@@ -1,3 +1,4 @@
+
 using MauiAppMinhasCompras.Models;
 
 
@@ -10,7 +11,7 @@ public partial class NovoProduto : ContentPage
 		InitializeComponent();
 	}
 
-    private async Task ToolbarItem_Clicked_1(object sender, EventArgs e)
+    private async void ToolbarItem_Clicked_1(object sender, EventArgs e)
     {
         try
         {
